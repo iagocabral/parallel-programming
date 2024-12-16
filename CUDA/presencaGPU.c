@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <sys/time.h>
 
-int main (int argc, char *argvll){
+int main (int argc, char *argv[]){
     if (argc != 2) {
-        fprintf(stderr, "Sintaxe: %s ‹no do device GPU id>\n", argv[O]);
+        fprintf(stderr, "Sintaxe: %s <no do device GPU id>\n", argv[O]);
         exit (1);
     }
     int devId = atoi(argv [1]);
